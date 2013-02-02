@@ -3,9 +3,11 @@
 use strict;
 use warnings;
 
-use Test::More 'no_plan';
+use Test::More;
 
 use ok 'Prompt::ReadKey';
 
 use ok 'Prompt::ReadKey::Sequence';
+
+done_testing;
 

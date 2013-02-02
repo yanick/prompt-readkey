@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-use Test::More 'no_plan';
+use Test::More;
 
 use ok 'Prompt::ReadKey';
 
@@ -149,4 +149,5 @@ $print_ret = 1;
 	is( @print_called, 1, "printed once" );
 }
 
+done_testing;
 
