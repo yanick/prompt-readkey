@@ -332,7 +332,7 @@ sub filter_options {
 		if ( keys %idx ) {
 			# FIXME this error sucks
 			require Data::Dumper;
-			croak "duplicate value for '$field': " . Dumper(\%idx);
+			croak "duplicate value for '$field': " . Data::Dumper::Dumper(\%idx);
 		}
 	}
 

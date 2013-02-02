@@ -16,6 +16,7 @@ requires 'Text::Sprintf::Named';
 requires 'Set::Object';
 
 test_requires 'Test::use::ok';
+test_requires 'Test::Fatal';
 
 manifest_skip;
 auto_manifest;
