@@ -778,7 +778,7 @@ Defaults to true.
 
 Option keys are treated case insensitively.
 
-Defuaults to true.
+Defaults to true.
 
 =item repeat_until_valid
 
